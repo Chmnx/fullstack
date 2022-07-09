@@ -1,0 +1,11 @@
+selain->palvelin:lomakkeelle syötety data palvelimelle 
+HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over selain:
+Sisältää JSON-muodossa olevan uuden muistiinpanon, johon kuuluu sekä sisältö (content) että aikaleima (date). Pyyntöön liitetty headeri Content-Type kertoo palvelimelle, että pyynnön mukana tuleva data on JSON-muotoista
+
+palvelin-->selain: HTTP-statuskoodi 201
+
+note over selain:
+Ei uudelleenohjausta. Selain pysyy samalla sivulla
+end note
